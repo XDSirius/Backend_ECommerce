@@ -11,7 +11,7 @@ router.get('/', async (req, res) => {
     const productData = await Product.findAll({
       include:[Category,Tag],
     });
-    res.status(200)>json(projectData);
+    res.status(200).json(productData);
   }
   catch(err) {
     res.status(500).json(err);
@@ -22,7 +22,7 @@ router.get('/', async (req, res) => {
 router.get('/:id', (req, res) => {
   // find a single product by its `id`
   // be sure to include its associated Category and Tag data
-  Product.findByPk({include:[Category,Tag]})
+  Product.findByPk(req.params.id,{include:[Category,Tag]})
   .then(data =>{
     res.json(data)
   })
