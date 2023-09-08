@@ -24,6 +24,6 @@ api/categories
 api/tags
 api/products
 
-![Categories](https://github.com/XDSirius/JavaScript-Password-Generator/blob/main/images/categories.png "Categories Endpoint")
-![Tags](https://github.com/XDSirius/JavaScript-Password-Generator/blob/main/images/tags.png "Tags Endpoint")
-![Products](https://github.com/XDSirius/JavaScript-Password-Generator/blob/main/images/products.png "Products Endpoint")
+![Categories](https://github.com/XDSirius/Backend_Ecommerce/blob/main/images/categories.png "Categories Endpoint")
+![Tags](https://github.com/XDSirius/Backend_Ecommerce/blob/main/images/tags.png "Tags Endpoint")
+![Products](https://github.com/XDSirius/Backend_Ecommerce/blob/main/images/products.png "Products Endpoint")
